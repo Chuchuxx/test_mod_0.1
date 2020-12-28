@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cm",
+  "version": "${version}",
+  "name": "Chuchus Mod",
+  "description": "My Mod",
+  "authors": [
+    "Chuchu"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/CM/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chuchu.CMMain"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "cm.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*"
+  }
+}
